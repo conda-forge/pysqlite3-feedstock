@@ -1,5 +1,5 @@
 {% set name = "pysqlite3" %}
-{% set version = "0.4.6" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pysqlite3-{{ version }}.tar.gz
-  sha256: 7ec4d4c477fa96609c1517afbc33bf02747588e528e79c695de95907cea7bf30
+  sha256: 3bbddd291e21c83670034f17a13edd0e0ef6ef1a53764ecdcb322d36d7302287
 
 build:
   number: 0

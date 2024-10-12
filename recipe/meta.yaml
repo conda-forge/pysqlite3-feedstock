@@ -23,6 +23,7 @@ requirements:
     - pip
     - python >=3.8
     - sqlite
+    - setuptools
   run:
     - python >=3.8
     - sqlite

@@ -1,5 +1,5 @@
 {% set name = "pysqlite3" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pysqlite3-{{ version }}.tar.gz
-  sha256: dd7d2b7f3a29aebdbf569c359658b091d3345b5691d9ea765a5c3febe8872bf9
+  sha256: 67b4a2c3e0f3b780cc8e5ac0efdc55a2bb99a63027070b4541eb8acd3dfb55ff
 
 build:
   noarch: generic
